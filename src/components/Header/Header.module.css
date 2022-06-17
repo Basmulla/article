@@ -1,0 +1,33 @@
+.topnav  {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* topnav links */
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* topnav links on mouse-over */
+  .topnav a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active topnav link */
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  /* Add responsiveness - will automatically display the topnav vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .topnav a {
+      float: none;
+      display: block;
+    }
+  }
