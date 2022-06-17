@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<HomePage/>} render={() => {
+          <Route exact path="/article" element={<HomePage/>} render={() => {
             <Navigate to="/Home" />
           }} />
           <Route exact path="/Home" element={<HomePage/>} />
