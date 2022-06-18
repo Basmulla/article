@@ -10,7 +10,7 @@ class Header extends React.Component {
                 <div class="topnav">
                     <img src={process.env.PUBLIC_URL + "/images/Atekulla_Basmulla Avatar.png"} width="45" height="45" alt="Avatar" />
                     &nbsp;
-                    <a><NavLink to="/Home" exact activeclassname='active'><i class="fa fa-fw fa-home"></i>Home</NavLink></a>
+                    <a><NavLink to="/" exact activeclassname='active'><i class="fa fa-fw fa-home"></i>Home</NavLink></a>
                     &nbsp;
                     <a>Instagram &nbsp; <a href="https://www.instagram.com/basmulla_7/" alt-="Instagram"><i class="fa fa-instagram"></i></a></a>
                     &nbsp;
